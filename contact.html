@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryana Calender Shop</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="contact.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900%7cRaleway:300,400,500,600,700"
+        rel="stylesheet">
+
+<body>
+    <section class="contact pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 mx-auto text-center">
+                    <div class="section-title mb-120">
+                        <h4>Contact Us</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-8">
+                    <form action="" class="contact-form">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="name" required >
+                            </div>
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="email" required>
+                            </div>
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="subject" required>
+                            </div>
+                            <div class="col-xl-6">
+                                <input type="text" placeholder="telephone" required>
+                            </div>
+                            <div class="col-xl-12">
+                                <h5>Your rating about us</h5>
+                                <div class="stars">
+                                  <form action="">
+                                    <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-5"></label>
+                                    <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                    <label class="star star-4" for="star-4"></label>
+                                    <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                    <label class="star star-3" for="star-3"></label>
+                                    <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                    <label class="star star-2" for="star-2"></label>
+                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                    <label class="star star-1" for="star-1"></label>
+                                  </form>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <textarea placeholder="message" cols="30" rows="12"></textarea>
+                                <input type="submit" value="send message" id="btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-contact">
+                        <i class="fa fa-map-marker"></i>
+                        <h5>Address</h5>
+                        <p>590 Cach Mang Thang 8, Ward 11, District 3, City. Ho Chi Minh </p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-phone"></i>
+                        <h5>Phone</h5>
+                        <p>(+84) 123456789</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-envelope"></i>
+                        <h5>Email</h5>
+                        <p>abcd@fpt.edu.vn</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <h5>Facebook</h5>
+                        <p>Ryana Calender Shop</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-location-arrow" aria-hidden="true"> </i>
+                        <h5>Location</h5>
+                        <div id="map" style="">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.313053815597!2d106.66440761451084!3d10.78731789231415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed245c18b99%3A0x83d529c21d62670a!2zNTkwIEPDoWNoIE3huqFuZyBUaMOhbmcgVMOhbSwgUGjGsOG7nW5nIDExLCBRdeG6rW4gMywgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640218154398!5m2!1svi!2s"
+                                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+<script>
+    var submit = document.getElementById("btn");
+    submit.onclick = function () {
+        alert("Thank you for visiting our shop and giving us your feedback. \n We invite you to see more of our products");
+       
+        }
+</script>
