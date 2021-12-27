@@ -1,69 +1,78 @@
-* {
-    padding: 0;
-    margin: 0;
+.col-item{
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: #fff;
 }
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color: black;
-    line-height: 1.15;
-}
-
-#wrapper {
-    max-width: 1170px;
+.col-item  .photo img{
     margin: 0 auto;
+    width: auto;
+    height: 5cm;
 }
-
-.headline {
-    text-align: center;
-    margin: 40px 0px;
+.col.item .info{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
 }
-
-h3 {
-    font-size: 18px;
+.col-item:hover .info { 
+    background-color: white;
+    }
+    .col-item .price {      
+    float: left;    
+    margin-top: 5px;
+    }
+    .col-item .price h5 {   
+    line-height: 20px;  
+    margin: 0;
+    }
+    .price-text-color{ 
+    color: blue;
+    }
+    .col-item .info .rating {   
     color: brown;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border: 1px solid black;
-    display: inline-block;
-}
-
-ul.products {
-    list-style: none;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-ul.products li {
-    flex-basis: 33%;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-}
-
-ul.products li img {
-    max-width: 100%;
-    height: auto;
-    width: 300px;
-}
-
-ul.products li .product-info {
-    padding: 15px 0px;
-}
-
-ul.products li .product-info a {
-    display: block;
-    text-decoration: none;
-}
-
-ul.products li .product-info a.product-name {
-    color: #334862;
-    padding: 3px 0px;
-}
-
-ul.products li .product-info .product-price {
-    color: red;
-    padding: 2px 0px;
-}
+    }
+    .col-item .rating {     
+    float: left;    
+    font-size: 17px;    
+    text-align: right;  
+    line-height: 52px;  
+    margin-bottom: 10px;    
+    height: 52px;
+    }
+    .col-item .separator {  
+    border-top: 1px solid white;
+    }
+    .clear-left {   
+    clear: left;
+    }
+    .col-item .separator p {    
+    line-height: 20px;  
+    margin-bottom: 0;   
+    margin-top: 10px;   
+    text-align: center;
+    }
+    .col-item .separator p i {  
+    margin-right: 5px;
+    }
+    .col-item .btn-add {    
+    width: 50%; 
+    float: left;
+    }
+    .col-item .btn-add {    
+    border-right: 1px solid white;
+    }
+    .col-item .btn-details {    
+    width: 50%; 
+    float: left;    
+    padding-left: 10px;
+    }
+    .controls { 
+    margin-top: 20px;
+    }
+    [data-slide="prev"] {
+     margin-right: 10px;
+    }
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+    }
+    
