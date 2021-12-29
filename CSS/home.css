@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 .dropdown-menu{
-    background-color: wheat;
+    background-color: #cfd1d0;
 }
 .carousel-item img{
     width: 25%;
@@ -14,6 +14,12 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    box-shadow: wheat 1px 1px 1px;
+    text-align: center;
 }
 .card-product{
     width:100%;
