@@ -20,25 +20,6 @@ h2 {
 .dropdown-menu{
     background-color: #cfd1d0;
 }
-.carousel-item img{
-    width: 25%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-.card-product{
-    width:100%;
-    margin-left: 5px;
-    margin-right: 5px;
-    overflow: hidden;
-}
-.card-img-top{
-    padding-left: 4rem;
-}
-.card-body{
-    text-align: center;
-}
 .photo img{
     z-index: 100;
     display: block;
@@ -55,16 +36,16 @@ h2 {
     height:  10rem;
     padding: initial;
 }
-.col.item .info{
-    padding: 10px;
+.info{
+    padding: 1rem;
     border-radius: 0 0 5px 5px;
-    margin-top: 1px;
+    margin-top: 1rem;
 }
 .col-item:hover .info { 
     background-color: white;
     }
     .col-item .price {      
-    float: left;    
+    /* float: left;     */
     margin-top: 5px;
     }
     .col-item .price h5 {   
