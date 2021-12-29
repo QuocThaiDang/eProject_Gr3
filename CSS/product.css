@@ -1,4 +1,15 @@
-
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    box-shadow: wheat 1px 1px 1px;
+    text-align: center;
+}
+.detail {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: auto;
+    background-color: grey;
+    text-align: center;
+}
 .nav-item a{
     font-weight: bolder;
     font-size: 18px;
