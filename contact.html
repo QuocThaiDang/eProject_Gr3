@@ -13,6 +13,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900%7cRaleway:300,400,500,600,700"
         rel="stylesheet">
+</head>
 
 <body>
     <section class="contact">
@@ -26,7 +27,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-8">
-                    <form action="index.html" class="contact-form">
+                    <form action="#" class="contact-form">
                         <div class="row">
                             <div class="col-xl-6">
                                 <input type="text" placeholder="name" required>
@@ -38,7 +39,7 @@
                                 <input type="text" placeholder="subject" required>
                             </div>
                             <div class="col-xl-6">
-                                <input type="text" placeholder="telephone" required>
+                                <input type="tel" placeholder="telephone" required>
                             </div>
                             <div class="col-xl-12">
                                 <h5>Your rating about us</h5>
@@ -59,7 +60,9 @@
                             </div>
                             <div class="col-xl-12">
                                 <textarea placeholder="message" cols="30" rows="8"></textarea>
-                                <input type="submit" value="send message" id="btn">
+                                <!-- <input type="submit" value="send message" id="btn"> -->
+                                <button onclick="myFunction()">Send Message</button>
+
                             </div>
                         </div>
                     </form>
@@ -100,11 +103,7 @@
     </section>
 </body>
 <script>
-    document.getElementById("contact-form").onsubmit = function () {
-        var submit = document.getElementById("btn");
-        submit.onclick = function () {
-            alert("Thank you for visiting our shop and giving us your feedback. \n We invite you to see more of our products");
-        }
+    function myFunction() {
+        alert("Thank you for visiting our shop and giving us your feedback. \n We invite you to see more of our products");
     }
-
 </script>
