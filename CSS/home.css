@@ -1,8 +1,9 @@
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: brown;
-    box-shadow: wheat 1px 1px 1px;
+    box-shadow: wheat 10px 10px 10px;
     text-align: center;
+    padding: 0 10px;
 }
 .nav-item a{
     font-weight: bolder;
@@ -15,7 +16,7 @@ h2{
     background-color: #cfd1d0;
 }
 .carousel-item img{
-    width: 25%;
+    width: 30%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
