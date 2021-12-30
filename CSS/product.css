@@ -1,8 +1,10 @@
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: brown;
-    box-shadow: wheat 1px 1px 1px;
+    box-shadow: wheat 10px 10px 10px;
     text-align: center;
+    padding: 0 10px;
+
 }
 .detail {
     font-family: 'Times New Roman', Times, serif;
