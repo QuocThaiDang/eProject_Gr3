@@ -5,7 +5,7 @@ Project title: Ryana Calender Shop
 
 ========>Gruop3<============
 
-web site is ready to be published at https://quocthaidang.github.io/eProject_Gr3/
+
 
 3 collaborators
 
@@ -18,7 +18,7 @@ web site is ready to be published at https://quocthaidang.github.io/eProject_Gr3
  ==================================
  githup reprot link:
  
- eProject Publish at : https://github.com/QuocThaiDang/eProject_Gr3
+ eProject Publish at :https://quocthaidang.github.io/eProject_Gr3/
  
  eProject report  link at: https://github.com/QuocThaiDang/eProject_Gr3/tree/master/Document
  
