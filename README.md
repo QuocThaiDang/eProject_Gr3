@@ -22,4 +22,8 @@ web site is ready to be published at https://quocthaidang.github.io/eProject_Gr3
  
  eProject report  link at: https://github.com/QuocThaiDang/eProject_Gr3/tree/master/Document
  
+ =================================================
+ 
+ Thank you for sending us your project time.
+ 
  
