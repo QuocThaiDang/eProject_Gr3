@@ -20,6 +20,6 @@ web site is ready to be published at https://quocthaidang.github.io/eProject_Gr3
  
  eProject Publish at : https://github.com/QuocThaiDang/eProject_Gr3
  
- eProject report  link at: 
+ eProject report  link at: https://github.com/QuocThaiDang/eProject_Gr3/tree/master/Document
  
  
