@@ -129,7 +129,7 @@
     float: right;
     padding: 10px;
     font-size: 36px;
-    color: #444;
+    color: #ebe6da;
     transition: all .2s;
   }
   input.star:checked ~ label.star:before {
@@ -146,4 +146,10 @@
   label.star:before {
     content: '\f006';
     font-family: FontAwesome;
+  }
+  .input {
+    color: white;
+  }
+  ::placeholder{
+    color: white;
   }
