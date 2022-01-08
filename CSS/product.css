@@ -101,4 +101,10 @@ h2 {
     [data-slide="prev"] {
      margin-right: 10px;
     }
+    ul li {
+        text-align: left;
+    }
+    details {
+        background-color: rgb(104, 151, 114);
+    }
     
